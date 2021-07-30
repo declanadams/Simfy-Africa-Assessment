@@ -1,6 +1,7 @@
 # Simfy-Africa-Assessment
 
-##About Project
+## About Project
+
 I was able to complete this assessment in the following thought process. firstly i used CRA to set up the boilerplate.
 Next i designed a simple home page with placeholder content. 
 All my styling was done using standard CSS to show that i have a  good understanding  of how it works.
@@ -11,7 +12,8 @@ I then proceed to map and display all videos in a list and added styling.
 Now i began to setup a dynamic route based on  the id of the video.
 I then started to work on the video details part of the project and styling and displaying data from the context.
 
-##what i used.
+## what i used.
+
 I used Create-React-App, CSS, Context API.
 
 
