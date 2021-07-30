@@ -12,7 +12,7 @@ I then proceed to map and display all videos in a list and added styling.
 Now i began to setup a dynamic route based on  the id of the video.
 I then started to work on the video details part of the project and styling and displaying data from the context.
 
-## what i used.
+## What i used.
 
 I used Create-React-App, CSS, Context API.
 
@@ -22,7 +22,7 @@ I used Create-React-App, CSS, Context API.
 
 In the project directory, you can run:
 
-###`yarn install`
+### `yarn install`
 
 Once all the node_modules have been installed , you can start the project.
 
