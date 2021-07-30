@@ -14,7 +14,7 @@ I then started to work on the video details part of the project and styling and 
 
 ## What i used.
 
-I used Create-React-App, CSS, Context API.
+I used Create-React-App, CSS, Context API and the API.
 
 
 
