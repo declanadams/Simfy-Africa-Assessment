@@ -1,0 +1,24 @@
+.btn{
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid white;
+    background-color: transparent;
+    width: 30%;
+    margin-top: 25px;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .btn{
+        width: 50%;
+    }
+}
+
+.btn:hover, .btn:focus, .btn:active{
+    font-weight: 600;
+    background-color: white;
+    color: #055052;
+}

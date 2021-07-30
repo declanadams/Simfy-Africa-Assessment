@@ -1,0 +1,30 @@
+.background_image{
+    background-color: #055052;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    margin-top: -80px;
+    text-align: center;
+}
+
+.landing_heading{
+    font-size: 38px;
+    color: white;
+    letter-spacing: 1.5px;
+}
+
+.landing_sub_heading{
+    color: white;
+    margin-top: 20px;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+

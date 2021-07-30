@@ -1,24 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+//pages
+import ListPage from "./pages/list-page/list-page.component";
+import HomePage from "./pages/home-page/home-page.component";
 
-function App() {
+//components
+import Header from './components/header/header.component';
+import Footer from './components/footer/footer.component';
+import VideoDetails from "./components/video-details/video-details.component";
+
+//modules
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { VideoProvider } from "./contexts/videoContext";
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <VideoProvider>
+        <>
+          <Router>
+            <Header/>
+            <Switch>
+              <Route path='/videos/:id'>
+                  <VideoDetails/>
+              </Route>
+
+              <Route path='/videos'>
+                  <ListPage/>
+              </Route>
+
+              <Route path='/'>
+                  <HomePage/>
+              </Route>
+            </Switch>
+            <Footer/>
+          </Router>
+        </>
+   </VideoProvider>
   );
 }
 

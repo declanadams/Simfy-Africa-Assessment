@@ -1,0 +1,17 @@
+footer{
+    display: flex;
+    background-color: #055052;
+    justify-content:center;
+    align-items: center;
+    margin-top: auto;
+    height: 100px;
+    margin-top: 80px;
+    
+}
+
+.foot_head{
+    
+    color: white;
+    letter-spacing: 1.5px;
+}
+

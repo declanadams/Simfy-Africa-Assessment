@@ -1,0 +1,36 @@
+.video_card{
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+.video_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.image{
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+.video_card:hover{
+    transform: scale(1.025); 
+}
+
+
+.title, .title:visited{
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: black;
+}
+
+.title:hover{
+    text-decoration: none;
+    color: #055052
+}
+
+
