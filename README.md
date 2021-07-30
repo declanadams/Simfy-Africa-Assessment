@@ -8,9 +8,8 @@ All my styling was done using standard CSS to show that I have a  good understan
 I then set-up the routes and designed the grid that the videos should use.
 Using a re-usable function I implemented a DRY approach to fetch the data and store the the results in the Context API.
 After this I was able to pass the context down the component tree to where I needed it.
-I then proceeded to map and display all videos in a list and added styling.
-Then I started to setup a dynamic route based on  the id of the video.
-I then started to work on the video details part of the project and styling and displaying data from the context.
+I then proceeded to map and display all videos in a list and added styling whereafter I started to setup a dynamic route based on  the id of the video.
+Once i finished the above i continued to work on the video details part of the project and styling and displaying data from the context.
 
 ## What i used.
 
